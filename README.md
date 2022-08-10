@@ -1,2 +1,2 @@
 # ValueInvesting-SP500
-A value investing strategy for S&amp;P500 stocks to build an equal-weighted portfolio
+Value investing" means investing in the stocks that are cheapest relative to common measures of business value (like earnings or assets). In this project, I am recommending to a client a certain number of shares to be bought for 50 top performing S&P500 stocks based on quantitative value, resulting in an equal-weighted portfolio of those 50 stocks. First, I use a naive approach for it, using just the Price-to-Earnings ratio. Afterwards, I calculate a "Robust Value Score" as a composite of different value metrics such as P/E Ratio, P/B Ratio, and EV/GP Ratio and recommend trades based on that score. The "value_strategy.xlsx" file contains some sample output.
